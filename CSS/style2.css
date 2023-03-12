@@ -1,0 +1,30 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+  h2 {
+    color: blue;
+  }
+  p {
+    font-size: 10px;
+  }
+  .boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin: 20px 10px;
+    height: 20px;
+    width: 10px;
+  }
+  span {
+    font-size: 5rem;
+  }
+
+  
