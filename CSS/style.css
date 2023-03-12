@@ -1,15 +1,18 @@
 /*Selector {
     Property: value;
 }*/
+* {
+    text-align: center;
+}
 body {
-    background-image: url(background.png);
+    /* background-image: url(background.png); */
     background-size: cover;
 }      
 
-h2 {
+h2, p {
     color: red;
     text-align: center;
-    border: 5px dashed gold;
+    border: 5px dotted gold;
     cursor: pointer;
 }
 p {
@@ -19,9 +22,24 @@ p {
 p {
     color: black;
 }
+img {
+    float:left
+}
+footer {clear:both
+}
 li{
     list-style: none;
     display: inline-block;
 }
 
-
+.webtext {
+    border:5px dashed green
+}
+.active {
+    color:brown
+}
+#div1 {
+    background-color: blanchedalmond
+}
+#div2 {background-color: palevioletred;
+}
